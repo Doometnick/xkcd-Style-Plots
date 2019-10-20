@@ -29,7 +29,7 @@ def sine_is_life():
     y = np.sin(x)
     
     plt.xticks([6, 8, 12, 17, 22], ["6am", "8am", "12pm", "5pm", "10pm"])
-    plt.yticks([-1, 1], ["unhappy", "happy"])
+    plt.yticks([-1, 1], ["not happy", "happy"])
 
     for text, point, text_pos in zip(annotations, annotation_pts, text_positions):
         ax.annotate(
